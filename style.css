@@ -1,0 +1,118 @@
+/* CSS reset */
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('pics/bg.jpg');
+    font-family: 'Ubuntu', sans-serif;
+    /* background: opacity(50%); */
+    /* opacity: 50%; */
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid rgb(89, 107, 207); */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 136px;
+    filter: contrast(100%);
+    /* filter:invert(100%); */
+
+}
+
+.left div {
+    text-align: center;
+    line-height: 18px;
+    font-size: 17px;
+}
+
+.mid {
+    display: block;
+    width: 35%;
+    margin: 26px auto;
+    /* border: 2px solid rgb(8, 114, 31); */
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 35px;
+    display: inline-block;
+    /* border: 2px solid rgb(126, 20, 20); */
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 13px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    /* text-decoration: underline; */
+    color: grey;
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.btn:hover {
+    background-color: #454343;
+}
+
+.container {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 110px auto;
+    padding: 69px 84px;
+    width: 33%;
+    border-radius: 20px;
+}
+
+.form-group input {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 11px auto;
+    text-align: center;
+    display: block;
+    width: 72%;
+    padding: 3px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: auto;
+
+}
